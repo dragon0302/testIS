@@ -24,4 +24,8 @@ public class calcolatriceTest {
         assertTrue("sottrazione coretta", calc.sottrazione(2,1)==1);
     }
 
+    public void testMoltiplicazione(){
+        assertTrue("moltiplicazione",calc.moltiplicazione(10,2)==20);
+    }
+
 }
