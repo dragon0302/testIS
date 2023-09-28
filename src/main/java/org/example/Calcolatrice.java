@@ -19,4 +19,8 @@ public class Calcolatrice {
         return a-b;
     }
 
+    public int moltiplicazione(int a, int b){
+        return a*b;
+    }
+
 }
